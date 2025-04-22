@@ -1,0 +1,120 @@
+
+    body {
+      margin: 0;
+    }
+
+    .faixavermelha {
+      background-color: #ed1c24;
+      height: 200px;
+      position:relative;
+    }
+    .faixapreta {
+      background-color: #000;
+      height: 75px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+    }
+    .faixapreta2 {
+      background-color: #000;
+      height: 80px;
+      display: flex;
+      justify-content: space-between; 
+      align-items: center;
+      position: relative;
+      padding: 0 50px; 
+      color: #ffffff;
+    }
+    .faixaescurecida {
+    background-color: #87001b;
+    min-height: calc(100vh - 275px); 
+    padding: 40px 0; 
+    }
+
+    .logo {
+      position: relative;
+      top: 10px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 250px;
+      height:175px;
+    }
+    .menu {
+      color: white;
+      display: flex;
+      justify-content: center;
+      gap: 50px;
+      margin-top: 50px;
+    }
+
+    .menu a {
+      color: white;
+      text-decoration: none;
+      font-family: sans-serif;
+      font-size: 14px;
+    }
+    .botao {
+      position: relative;
+      top: -24px;
+      padding: 6px 12px;
+      background-color: #6d0202;
+      color: white;
+      text-align: center;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: transform 0.3s ease; 
+    }
+    
+    .botao:hover {
+      transform: scale(1.1);  
+    }
+    .produtos {
+      display: flex;
+      justify-content: center;
+      gap: 50px;
+      padding: 40px;
+      flex-wrap: wrap;
+    }
+    
+    .produto {
+      background: white;
+      border-radius: 20px;
+      padding: 20px;
+      width: 200px;
+      text-align: center;
+      color: black;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    }
+    
+    .produto img {
+      width: 100%;
+      border-radius: 10px;
+    }
+    
+    .produto button {
+      margin-top: 10px;
+      padding: 10px;
+      background: #ff2a2a;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: transform 0.3s ease; 
+    }
+    .produto button:hover {
+      transform: scale(1.1);
+    }
+    .footerh {
+      flex: 1;
+      text-align: center;
+    }
+    .numero {
+      color:#ffffff;
+      text-align: left;
+    }
+    
+    .email {
+      color:#ffffff;
+      text-align: right;
+    }
